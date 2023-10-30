@@ -2,6 +2,7 @@ import axios from "axios"
 import 'dotenv/config'
 import db from "../db/connection.js"
 import Astronomy from "../models/Astronomy.js"
+import chalk from "chalk"
 
 async function insertData(){
     await db.dropDatabase()
@@ -10,7 +11,7 @@ async function insertData(){
 
     await Astronomy.create(results.data)
 
-    console.log("Astronomy Data Created!")
+    console.log(chalk.magenta("Astronomy Data Created!"))
 
     await db.close()
 }
