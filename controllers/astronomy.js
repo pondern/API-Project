@@ -64,3 +64,16 @@ export const deleteAstronomy = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+export const getAllStronomyByYear = async (req, res) => {
+  try {
+    const { year } = req.params;
+
+    const allAstronomyByYear = await Astronomy.find({ date: { $regex: `\\b${year}\\b`} })
+
+    res.json(allAstronomyByYear)
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.message });
+  }
+}
