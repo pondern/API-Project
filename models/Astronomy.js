@@ -7,7 +7,7 @@ let AstronomySchema = new Schema ({
     explanation: {type: String},
     media_type: {type: String},
     title: {type: String},
-    hi_def_url: {type: String},
+    hdurl: {type: String},
     url: {type: String}
 
 })
