@@ -49,7 +49,7 @@ GET "/" Returns a list of all 100 astronomy objects
 GET "/:id" Returns a single astronomy object by objectID
 GET "/year/:year" Returns all astronomy objects within a specified year
 POST "/" Creates a new astronomy object
-PUT "/:id" /🆔 Updates an existing astronomy object
+PUT "/:id" Updates an existing astronomy object
 DELETE "/:id" Deletes a astronomy object by objectID.
 ```
 
