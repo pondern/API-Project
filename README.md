@@ -44,7 +44,7 @@ NOTE: Have a JSON viewer extension installed on your browser to display/"pretty"
 
 Routes
 
-```json
+```javascript
 GET "/" Returns a list of all 100 astronomy objects
 GET "/:id" Returns a single astronomy object by objectID
 GET "/year/:year" Returns all astronomy objects within a specified year
@@ -56,7 +56,7 @@ DELETE "/:id" Deletes a astronomy object by objectID.
 ## Schema
 - Retrieve Astronomy details:
 
-```JSON
+```javascript
 let AstronomySchema = new Schema ({
     date: {type: String},
     explanation: {type: String},
