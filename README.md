@@ -14,10 +14,17 @@ git clone https://github.com/pondern/Astronomy-API
     
 
 2. Install dependencies:
-Install dependencies using npm install(make sure to have node.js and npm installed already)
+Install dependencies using npm install (make sure to have node.js and npm installed already)
 
 ```JSON
- [ "dependencies": {
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed/data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
     "axios": "^1.6.0",
     "chalk": "^5.3.0",
     "cors": "^2.8.5",
@@ -26,7 +33,8 @@ Install dependencies using npm install(make sure to have node.js and npm install
     "mongoose": "^7.6.3",
     "morgan": "^1.10.0"
   },
- ]
+  "type": "module"
+  
 ```
 3. Run the API:
 To run the project, use the command npm start.
