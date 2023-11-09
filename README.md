@@ -102,11 +102,9 @@ let AstronomySchema = new Schema ({
 ## Contribution
 Contributions to this project are welcome. If you'd like to contribute, feel free to fork this repository, make your changes, and submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 This API is created for educational purposes and does not claim official affiliation or endorsement by the NBA.
 
 ## Contact
-For any questions or concerns, please [open an issue](https://github.com/Lindevin101/NBA-API/issues) in this repository.
+For any questions or concerns, please [open an issue](https://github.com/pondern) in this repository.
