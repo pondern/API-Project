@@ -107,4 +107,4 @@ Contributions to this project are welcome. If you'd like to contribute, feel fre
 This API is created for educational purposes and does not claim official affiliation or endorsement by the NBA.
 
 ## Contact
-For any questions or concerns, please [open an issue]([https://github.com/pondern](https://github.com/pondern/Astronomy-API/issues)https://github.com/pondern/Astronomy-API/issues) in this repository.
+For any questions or concerns, please [open an issue](https://github.com/pondern/Astronomy-API/issues) in this repository.
